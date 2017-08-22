@@ -10,6 +10,7 @@ public class ProductCatalog {
 		categories.add("Books");
 		categories.add("Music");
 		categories.add("Movies");
+		System.out.println("hello world");
 		return categories;
 	}
 }
