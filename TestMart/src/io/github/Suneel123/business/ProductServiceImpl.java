@@ -3,6 +3,8 @@ package io.github.Suneel123.business;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.github.Suneel123.model.Product;
+
 public class ProductServiceImpl {
 	
 	List<String> bookList = new ArrayList<String>();
@@ -60,4 +62,10 @@ public class ProductServiceImpl {
 		return true;
 	}
 	
+	public List<Product> getProductsv2(String category) {
+		List<Product> productList = new ArrayList<>();
+		productList.add(new Product("The Ministry of Utmost Happiness", "458XSB", 4657.45));
+		productList.add(new Product("Exit West", "785412", 45784.21));
+		return productList;
+	}
 }
