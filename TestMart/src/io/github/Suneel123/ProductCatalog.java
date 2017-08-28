@@ -8,7 +8,7 @@ import io.github.Suneel123.business.ProductServiceImpl;
 import io.github.Suneel123.model.Product;
 
 @WebService(endpointInterface="io.github.Suneel123.ProductCatalogInterface", portName="TestMartCatalogPort", 
-			serviceName="TEstMartCatalogService")
+			serviceName="TestMartCatalogService")
 public class ProductCatalog implements ProductCatalogInterface {
 	
 	ProductServiceImpl productService = new ProductServiceImpl();
